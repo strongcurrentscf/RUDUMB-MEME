@@ -1,3 +1,4 @@
+/* flex to justify and align to center */
 body {
   height: 100vh;
   display: flex;
@@ -6,9 +7,9 @@ body {
 }
 
 .window {
-  min-width: 35em;
 }
 
+/* title bar */
 .title-bar-text p {
   margin: 0;
   text-align: center;
@@ -17,9 +18,9 @@ body {
 
 .title-bar-text span {
   font-weight: bold;
-  font-style: normal;
 }
 
+/* window typography */
 .window-body p {
   text-align: center;
   font-size: 3em;
@@ -30,10 +31,19 @@ body {
   display: none;
 }
 
+/* buttons */
 .maximize {
-  /* padding-bottom: 200px; */
+  padding: 5em;
 }
 
 .minimize {
   margin: 0px auto;
+}
+
+.btn-yes {
+  font-size: 1.25rem;
+}
+
+.btn-no {
+  font-size: 1.25rem;
 }
