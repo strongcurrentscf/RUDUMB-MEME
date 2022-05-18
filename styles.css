@@ -1,5 +1,12 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .window {
-  margin: 100px auto;
+  min-width: 35em;
 }
 
 .title-bar-text p {
@@ -15,7 +22,7 @@
 
 .window-body p {
   text-align: center;
-  font-size: 36px;
+  font-size: 3em;
   font-weight: bold;
 }
 
@@ -24,7 +31,7 @@
 }
 
 .maximize {
-  padding-bottom: 200px;
+  /* padding-bottom: 200px; */
 }
 
 .minimize {
