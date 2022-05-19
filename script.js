@@ -19,7 +19,7 @@ close.addEventListener("click", function () {
 
   // Resets to defaults
   display.textContent = "Are you dumb?";
-  wndw.style.marginTop = `100px`;
+  wndw.style.marginTop = `0`;
   const minzd = display.classList.contains("minimize");
   minzd && display.classList.toggle("minimize");
   const maxzd = display.classList.contains("maximize");
